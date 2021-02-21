@@ -76,16 +76,19 @@
   
 
 <img src="<?php echo base_url('gambar/blog/chaticon.png') ?>" height="150px" width="150px" style="display: inline;"></label>
-<div class="wrapper"  style="display: inline;">
+<div class="wrapper"  style="display: inline-block; ">
     <div class="header">
         <h6 align="center">Tanya ke CS - <b>Online</b></h6>
     </div>
     <div class="text-center p-2"> <span>Selamat Datang Wish Properti</span> </div>
     <div class="chat-form"> 
-    <input type="text" class="form-control" placeholder="Nama"> 
-    <input type="text" class="form-control" placeholder="Email"> 
-    <textarea class="form-control" placeholder="Apa yang kamu tanyakan?"></textarea> 
-    <br><button class="btn btn-warning btn-block">Kirim</button> </div>
+    <center>
+    <h5>Hubungi melalui whatsapp</h5>
+    <a href="https://wa.me/6281234121237?text=Hallo Wishproperti?">
+    <img src="<?php echo base_url('assetss/img/wa.png')?>" width="150px"></a>
+    <br><br>
+    </center>
+    </div>
 </div>
 
   <div id="preloader"></div>
